@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -57,6 +58,7 @@ header {
     height: 100vh;
     color: var(--color-white);
     overflow: hidden;
+   
 }
 
 section {
@@ -664,7 +666,7 @@ section {
 .i-c-2 {
     display: flex;
     :last-child {
-        margin-left: 1.5rem;
+        margin-left:1.5rem;
     }
 } 
 
@@ -744,3 +746,6 @@ section {
         }
     }
 }
+
+
+@import "./media";
